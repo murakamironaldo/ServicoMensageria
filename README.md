@@ -31,14 +31,14 @@ TODO: Guia:
 
 
 	2.	Inserir registros de configuração
-		INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.host','',1,'Host do Smtp');
-        INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.porta','',1,'Porta do smtp');	
-        INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.quantidadeemails','',1,'Quantidade de envio de e-mails');
-        INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.remetente.email','',1,'Email do remetente');
-        INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.remetente.nome','',1,'Nome do Remetente');
-        INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.senha','',1,'Senha do Smtp');
-        INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.ssl','FALSE',1,'Possui ssl? ');
-        INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.tempoenvio','30',1,'Tempo em minutos');
+		>INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.host','',1,'Host do Smtp');
+        >INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.porta','',1,'Porta do smtp');	
+        >INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.quantidadeemails','',1,'Quantidade de envio de e-mails');
+        >INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.remetente.email','',1,'Email do remetente');
+        >INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.remetente.nome','',1,'Nome do Remetente');
+        >INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.senha','',1,'Senha do Smtp');
+        >INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.ssl','FALSE',1,'Possui ssl? ');
+        >INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.tempoenvio','30',1,'Tempo em minutos');
 		
 		*** O tempo de envio é em minutos
 
