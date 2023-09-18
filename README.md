@@ -31,6 +31,7 @@ TODO: Guia:
 
 
 	2.	Inserir registros de configuração
+		
 		INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.host','',1,'Host do Smtp');
 		
         INSERT INTO `Configuracoes` (`Variavel`,`Valor`,`FlgStatus`,`Descricao`) VALUES ('smtp.porta','',1,'Porta do smtp');	
